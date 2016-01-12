@@ -1,0 +1,1 @@
+<a href="?language=en">English</a>|<a href="?language=ne">Nepali</a>

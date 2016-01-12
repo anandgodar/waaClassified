@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+    <definition name="layout" template="/WEB-INF/tiles/template/layout.jsp">
+        <put-attribute name="header" value="/WEB-INF/tiles/template/header.jsp"/>
+        <put-attribute name="header1" value="/WEB-INF/tiles/template/header1.jsp"/>
+        <put-attribute name="menu" value="/WEB-INF/tiles/template/menu.jsp"/>
+        <put-attribute name="body" value="/WEB-INF/tiles/template/homeBody.jsp"/>
+        <put-attribute name="footer" value="/WEB-INF/tiles/template/footer.jsp"/>
+
+    </definition>
+
+    <definition name="welcome-first" extends="layout">
+        <put-attribute name="title" value="Welcome"/>
+        <put-attribute name="body" value="/WEB-INF/views/welcome.jsp"/>
+    </definition>
+    
+    
+	
+	<definition name="listProduct" extends="layout">
+		<put-attribute name="title" value="Product" />
+		<put-attribute name="body" value="/WEB-INF/views/product/listProduct.jsp" />
+	</definition> 
+	
+		<definition name="addProduct" extends="layout">
+		<put-attribute name="title" value="Product" />
+		<put-attribute name="body" value="/WEB-INF/views/product/addProduct.jsp" />
+	</definition> 
+
+
+    <definition name="listCategory" extends="layout">
+        <put-attribute name="title" value="CategoryList"/>
+        <put-attribute name="body" value="/WEB-INF/views/category/listCategory.jsp"/>
+    </definition>
+
+
+    <definition name="addcategory" extends="layout">
+        <put-attribute name="title" value="Add Category"/>
+        <put-attribute name="body" value="/WEB-INF/views/category/addCategory.jsp"/>
+    </definition>
+    <definition name="wishlist" extends="layout">
+        <put-attribute name="title" value="Wish List"/>
+        <put-attribute name="body" value="/WEB-INF/views/wishlist/wishlist.jsp"/>
+    </definition>
+    <definition name="manageUser" extends="layout">
+        <put-attribute name="title" value="Manage User"/>
+        <put-attribute name="body" value="/WEB-INF/views/manageUser.jsp"/>
+    </definition>
+  
+    <definition name="dashboard-admin" extends="layout">
+        <put-attribute name="title" value="Dashboard"/>
+        <put-attribute name="body" value="/WEB-INF/views/dashboard-admin.jsp"/>
+    </definition>
+    <definition name="dashboard-general" extends="layout">
+        <put-attribute name="title" value="Dashboard"/>
+        <put-attribute name="body" value="/WEB-INF/views/dashboard-general.jsp"/>
+    </definition>
+
+</tiles-definitions>

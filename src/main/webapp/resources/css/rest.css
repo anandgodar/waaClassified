@@ -1,0 +1,108 @@
+.error{
+	color:red;
+} 
+Table.GridOne {
+	padding: 3px;
+	margin: 0;
+	background: lightyellow;
+	border-collapse: collapse;	
+	width:35%;
+}
+Table.GridOne Td {	
+	padding:2px;
+	border: 1px solid #ff9900;
+	border-collapse: collapse;
+}
+ 
+  #errors {
+	position:absolute;
+    top:  200px;
+    left: 400px;
+	background-color:LightBlue;	
+	width:375px;
+	height:250px;
+	z-index: 9002;
+   	border-style: solid;
+    border-color: blue;
+}
+    #errors, li {
+	color: FireBrick;
+   
+}
+ 
+ #formInput {
+position:absolute;
+     
+background-color:tan;	
+width:400px;
+
+z-index: 9002;
+   border-style: solid;
+    border-color: brown;
+}
+
+.CSSTableGenerator {
+	margin:0px;padding:0px;
+	width:800px;
+	
+	border:1px solid #000000;
+	
+	-moz-border-radius-bottomleft:0px;
+	-webkit-border-bottom-left-radius:0px;
+	border-bottom-left-radius:0px;
+	
+	-moz-border-radius-bottomright:0px;
+	-webkit-border-bottom-right-radius:0px;
+	border-bottom-right-radius:0px;
+	
+	-moz-border-radius-topright:0px;
+	-webkit-border-top-right-radius:0px;
+	border-top-right-radius:0px;
+	
+	-moz-border-radius-topleft:0px;
+	-webkit-border-top-left-radius:0px;
+	border-top-left-radius:0px;
+}.CSSTableGenerator table{
+    border-collapse: collapse;
+        border-spacing: 0;
+	width:100%;
+	height:100%;
+	margin:0px;padding:0px;
+}.CSSTableGenerator tr:last-child td:last-child {
+	-moz-border-radius-bottomright:0px;
+	-webkit-border-bottom-right-radius:0px;
+	border-bottom-right-radius:0px;
+}
+
+
+.CSSTableGenerator th{ background-color:#ffaa56; }
+
+.CSSTableGenerator td{
+	vertical-align:middle;
+	
+	
+	border:1px solid #000000;
+	border-width:0px 1px 1px 0px;
+	text-align:left;
+	padding:7px;
+	font-size:10px;
+	font-family:Arial;
+	font-weight:normal;
+	color:#000000;
+}.CSSTableGenerator tr:last-child td{
+	border-width:0px 1px 0px 0px;
+}.CSSTableGenerator tr td:last-child{
+	border-width:0px 0px 1px 0px;
+}.CSSTableGenerator tr:last-child td:last-child{
+	border-width:0px 0px 0px 0px;
+}
+
+.CSSTableGenerator tr:first-child:hover td{
+	
+}
+.CSSTableGenerator tr:first-child td:first-child{
+	border-width:0px 0px 1px 0px;
+}
+.CSSTableGenerator tr:first-child td:last-child{
+	border-width:0px 0px 1px 1px;
+}
